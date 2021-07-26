@@ -5,17 +5,18 @@
 
 .headerLink {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: row;
 }
 
 
 nav {
     background-color: #1E2329;
-    width: 100%;
+    width: 96%;
     float: none;
-    padding: 15px;
-    margin: 25px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 ul {
@@ -24,57 +25,66 @@ ul {
     justify-content: space-around;
     flex-direction: row;
     vertical-align: top;
+    margin-left: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: 600;
 }
 
-.heroImg {
-    position: absolute;
-width: 385px;
-height: 792px;
-left: 64px;
-top: 181px;
-}
+
 
 body {
     background-color: #1E2329;
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: left center;
 }
 
 
 .content {
-    margin-right: auto;
-    margin: 0 auto;
-    background-color: #3B4046;
-    position: absolute;
-width: 868px;
-height: 792px;
-left: 475px;
-top: 181px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    background-color: #1E2329;
 }
 
+}
 
-/*PARAGRAPH ABOUT ME*/
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
 
-h2, h3 {
-    font-family: Arial, Helvetica, sans-serif;
+p {
     color: white;
-    position: absolute;
-font-size: 36px;
-line-height: 42px;
-margin-top: 250px;
-margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
-
-
-/*HEADER*/
 
 h1 {
-    font-family: "Lucida Console", "Courier New", monospace;
     color: white;
-    position: absolute;
-font-weight: 900;
-font-size: 64px;
-line-height: 75px;
-margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 150px;
+}
+
+footer {
+    background-color: #1E2329;
+    width: 96%;
+    float: none;
+    padding: 1%;
+    margin: 1%;
+}
+
+.footerP {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    vertical-align: top;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
 }
